@@ -43,3 +43,7 @@ features
      └── env.rb  
  ```
  ** Os comandos do cucumber devem ser passado na pasta raiz do projeto.
+ 
+ Tudo sobre os comandos no capybara no link abaixo:
+ https://reiload-88128.medium.com/estudando-os-comandos-do-capybara-ruby-f0f5152847f7
+ 
