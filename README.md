@@ -18,4 +18,5 @@ Após instalação do ruby instalar o bundler, não esquecer de instalar a vers�
 gem install bundler
 gem install pkg-config -v 1.1.7
 bundler install
+bundle exec cucumber
 ```
