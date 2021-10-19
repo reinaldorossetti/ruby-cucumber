@@ -33,7 +33,7 @@ bundle exec cucumber
 ```
 
 O Projeto deve segue a estrutura abaixo:  
-
+```
 features  
 ├── specifications ou specs   
     └── login.feature  
@@ -41,5 +41,5 @@ features
     └── login.rb  
 ├── support      
      └── env.rb  
-     
+ ```
  ** Os comandos do cucumber devem ser passado na pasta raiz do projeto.
