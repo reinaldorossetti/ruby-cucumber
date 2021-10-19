@@ -13,7 +13,7 @@ sudo apt-get install build-essential libssl-dev libyaml-dev zlib1g-dev libffi-de
 
 Versão recomendada 2.6.X para o windows.
 
-Após instalação do ruby instalar o bundler:
+Após instalação do ruby instalar o bundler, não esquecer de instalar a versão do ruby com devkit para windows:
 ```
 gem install bundler
 gem install pkg-config -v 1.1.7
