@@ -18,8 +18,8 @@ MAC OS
 brew install rbenv ruby-build
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 source ~/.bash_profile
-rbenv install 2.6.3
-rbenv global 2.6.3
+rbenv install 2.6.8
+rbenv global 2.6.8
 ```
 
 Versão recomendada 2.6.X para o windows.
