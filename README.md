@@ -34,14 +34,16 @@ bundle exec cucumber
 
 O Projeto deve seguir a estrutura abaixo:  
 ```
-features  
-├── specifications ou specs   
-    └── login.feature  
-├── step_definitions  
-    └── login.rb  
-├── support      
-     └── env.rb  
+ruby-cucumber
+ features  
+ ├── specifications ou specs   
+     └── login.feature  
+ ├── step_definitions  
+     └── login.rb  
+ ├── support      
+      └── env.rb  
  ```
+ Os arquivos .gitignore, Gemfile, README.md, devem ser criados na raiz do projeto.
  ** Os comandos do cucumber devem ser passado na pasta raiz do projeto.
  
  Tudo sobre os comandos no capybara no link abaixo:  
