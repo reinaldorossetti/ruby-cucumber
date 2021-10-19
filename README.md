@@ -3,8 +3,8 @@ Projeto primeiros passos com capybara.
 
 
 Instalar o Ruby de Acordo com o seu Sistema Operacional:
-
-Ruby Windows Instalar através do executável no link abaixo:
+ 
+Ruby Windows Instalar através do executável no link abaixo:  
 https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.8-1/rubyinstaller-devkit-2.6.8-1-x64.exe
 
 Linux
