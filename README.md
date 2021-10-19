@@ -32,7 +32,7 @@ bundler install
 bundle exec cucumber
 ```
 
-O Projeto deve segue a estrutura abaixo:  
+O Projeto deve seguir a estrutura abaixo:  
 ```
 features  
 ├── specifications ou specs   
