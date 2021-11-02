@@ -23,4 +23,11 @@ gem 'ffi', '~> 1.15', '>= 1.15.4'
 ```
 bundle install
 ```
+
+** Obs: Para executar o cucumber usando o bundle:
+```
+bundle exec cucumber
+```
+Assim ele vai executar as bibliocas com as versões que estão no bundle, para não ter error de conflito de versões de bibliotecas.
+
 Passo a passo aqui foi validado com funciona com sucesso...
