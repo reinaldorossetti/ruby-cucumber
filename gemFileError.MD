@@ -32,3 +32,7 @@ bundle exec cucumber
 Assim ele vai executar as bibliocas com as versões que estão no bundle, para não ter error de conflito de versões de bibliotecas.
 
 Passo a passo aqui foi validado com funciona com sucesso...
+
+
+Referências:
+https://bundler.io
