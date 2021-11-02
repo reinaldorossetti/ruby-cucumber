@@ -5,6 +5,12 @@ Passo a Passo para resolver os problema no Gemfile:
 ```
 gem uninstall -aIx
 ```
+Ou pode remover o capybara e site-prism, se caso não quiser remover todas as gems.
+```
+gem uninstall capybara
+gem uninstall site_prism
+```
+
 
 2. Depois manda o comando para instalar o bundler e criar o arquivo no projeto, segue abaixo:
 ```
@@ -31,7 +37,7 @@ bundle exec cucumber
 ```
 Assim ele vai executar as bibliocas com as versões que estão no bundle, para não ter error de conflito de versões de bibliotecas.
 
-Passo a passo aqui foi validado com funciona com sucesso...
+Passo a passo aqui foi validado com sucesso...
 
 
 Referências:  
