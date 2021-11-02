@@ -5,7 +5,8 @@ Passo a Passo para resolver os problema no Gemfile:
 ```
 gem uninstall -aIx
 ```
-Ou pode remover o capybara e site-prism, se caso não quiser remover todas as gems.
+Ou pode remover o capybara e site-prism, se caso não quiser remover todas as gems. 
+Se tiver mais de uma versão instalada remova todas.
 ```
 gem uninstall capybara
 gem uninstall site_prism
