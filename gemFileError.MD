@@ -1,5 +1,5 @@
 
-Passo a Passo para resolver os problema no Gemfile:
+<br>Passo a Passo para resolver problemas no Gemfile com site_prism e capybara.</br>
 
 1. Deleta o Gemfile e mande o comando abaixo para limpar as gems instaladas:
 ```
