@@ -6,8 +6,9 @@ Passo a Passo para resolver os problema no Gemfile:
 gem uninstall -aIx
 ```
 
-2. Depois manda o comando abaixo:
+2. Depois manda o comando para instalar o bundler e criar o arquivo no projeto, segue abaixo:
 ```
+gem install bundler
 bundle init
 ```
 ele vai gerar o Gemfile automaticamente....
