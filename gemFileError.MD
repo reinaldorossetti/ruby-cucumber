@@ -36,7 +36,7 @@ bundle install
 ```
 bundle exec cucumber
 ```
-Assim ele vai executar as bibliotecas com as versões que estão no bundle, para não ter error de conflito de versões entre as bibliotecas.
+Assim ele vai executar as bibliotecas com as versões que estão no Gemfile, para não ter error de conflito de versões entre as bibliotecas.
 
 Passo a passo aqui foi validado com sucesso...
 
