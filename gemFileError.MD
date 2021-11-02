@@ -13,7 +13,7 @@ gem uninstall site_prism
 ```
 
 
-2. Depois manda o comando para instalar o bundler e criar o arquivo no projeto, segue abaixo:
+2. Depois somente mandar o comando para instalar o bundler e criar o arquivo Gemfile no projeto, como abaixo:
 ```
 gem install bundler
 bundle init
@@ -36,7 +36,7 @@ bundle install
 ```
 bundle exec cucumber
 ```
-Assim ele vai executar as bibliocas com as versões que estão no bundle, para não ter error de conflito de versões de bibliotecas.
+Assim ele vai executar as bibliotecas com as versões que estão no bundle, para não ter error de conflito de versões entre as bibliotecas.
 
 Passo a passo aqui foi validado com sucesso...
 
