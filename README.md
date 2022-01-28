@@ -22,7 +22,7 @@ rbenv install 2.6.8
 rbenv global 2.6.8
 ```
 
-Versão recomendada 2.6.X para o windows.
+Versão do Ruby recomendada 2.6.X para o windows.
 
 Após instalação do ruby instalar o bundler, não esquecer de instalar a versão do ruby com devkit para windows:
 ```
