@@ -10,15 +10,22 @@ Dado('que esteja na pagina desejada') do
     find('a', text: 'Formulário', visible: true).click
   rescue
     puts "Deu BO no Script, veja se o site esta disponivel!!"
-    $erro = true
+    $erro = true # variavel global
   end
 end
 
 Quando('realizo o cadastro das informações {string} e {string}') do |nome, email|
   print "Nome: #{nome}, Email: #{email}"
+  @email = email  # variavel de instancia
+  @nome = nome
 end
 
 Então('valido o {string} e a sua mensagem de erro {string}') do |mensagem, erro|
-  print "Nome: #{mensagem}, Email: #{erro}"
-  if $erro then fail  ArgumentError, 'Teste Falhou' end
+  if erro.empty? then 
+    puts erro = "Nenhum Mensagem de Erro Encontrado!!!" 
+  end
+  print "Nome: #{@nome}, Email: #{@email}"
+  if $erro then 
+    fail  ArgumentError, 'Teste Falhou' 
+  end
 end

@@ -12,4 +12,4 @@ Realizar testes com várias massas.
 Esquema do Cenário: Validar diversas cenários decadastro. 
   Dado que esteja na pagina desejada
   Quando realizo o cadastro das informações "reinaldo" e "reiload@gmail.com"
-  Então valido o "<campo>" e a sua mensagem de erro "<mensagem>"
+  Então valido o "<campo>" e a sua mensagem de erro ""
